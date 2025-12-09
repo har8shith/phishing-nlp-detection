@@ -84,7 +84,7 @@ The system uses a **3000-email synthetic dataset** (1500 phishing + 1500 legitim
 
 ## 📂 Project Structure
 
-![Uploading Screenshot 2025-12-09 at 3.20.32 PM.png…]()
+file:///Users/harshith/Desktop/Screenshot%202025-12-09%20at%203.20.32%E2%80%AFPM.png
 
 
 Each row contains:
