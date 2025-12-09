@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+alembic
+python-dotenv
+pandas
+numpy
+scikit-learn
+joblib
+spacy
+transformers
+torch
+streamlit
+requests
+tqdm

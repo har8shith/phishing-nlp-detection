@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Model files (optional)
+models/tfidf_vectorizer.pkl
+models/tfidf_logreg.pkl
+models/bert_model/
+
+# Dataset
+data/emails.csv
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# PyTorch
+*.bin
+git add .
