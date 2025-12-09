@@ -84,11 +84,45 @@ The system uses a **3000-email synthetic dataset** (1500 phishing + 1500 legitim
 
 ## 📂 Project Structure
 
+phishing_nlp_project/
+│
+├── app/
+│   ├── api/                 # FastAPI routers
+│   ├── nlp/
+│   │   ├── preprocessing.py
+│   │   ├── tfidf_model.py
+│   │   ├── bert_model.py
+│   ├── services/extractor.py
+│   ├── models.py            # SQLite ORM models
+│   ├── database.py
+│
+├── data/
+│   └── emails.csv           # 3000-email dataset (ignored in .gitignore)
+│
+├── models/
+│   ├── tfidf_vectorizer.pkl
+│   ├── tfidf_logreg.pkl
+│   └── bert_model/          # Saved BERT model files
+│
+├── train_tfidf.py           # Train TF-IDF model
+├── train_bert.py            # Fine-tune DistilBERT
+│
+├── streamlit_app.py         # UI frontend
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+Data Summary:
+| Type       | Count    |
+| ---------- | -------- |
+| Phishing   | 1500     |
+| Legitimate | 1500     |
+| **Total**  | **3000** |
 
 
 
 Each row contains:
-
 
 subject, body, label
 1 → phishing
