@@ -86,6 +86,7 @@ The system uses a **3000-email synthetic dataset** (1500 phishing + 1500 legitim
 
 ![Uploading Screenshot 2025-12-09 at 3.20.32 PM.png…]()
 
+
 Each row contains:
 
 
